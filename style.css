@@ -1,0 +1,16 @@
+.calculator{
+    height: 650px;
+    width: 450px;
+    background-color: rgb(201 187 210);
+    margin-left: 570px;
+    margin-top: 45px;
+}
+.screen{
+    height: 60px;
+    width:80%;
+    margin-top: 25px;
+    margin-left: 36px;
+    border: 5px solid #9961b1ad;
+    border-radius: 10px;
+    pointer-events: none;
+}
