@@ -4,8 +4,10 @@
     background-color: rgb(201 187 210);
     margin-left: 570px;
     margin-top: 45px;
+    border: 3px solid #9961b1ad;
+    border-radius: 10px;
 }
-.screen{
+#screen{
     height: 60px;
     width:80%;
     margin-top: 25px;
@@ -13,4 +15,38 @@
     border: 5px solid #9961b1ad;
     border-radius: 10px;
     pointer-events: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    border: 2px solid #9961b1ad;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.row{
+    margin-left: 6px;
+}
+
+.clr{
+    height: 60px;
+    width: 185px;
+    border: 2px solid #9961b1ad;
+    border-radius: 10px;
+    margin-left: 125px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: #a394b0;
+}
+
+.clr:hover{
+    background-color: #a394b0;
 }
